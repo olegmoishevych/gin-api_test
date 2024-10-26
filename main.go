@@ -11,6 +11,7 @@ func main() {
 	r := gin.Default()
 
 	routes.RegisterRoutes(r)
+	routes.CreateRoutes(r)
 
 	r.Run()
 }
